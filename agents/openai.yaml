@@ -1,0 +1,6 @@
+interface:
+  display_name: "问题发现漏斗"
+  short_description: "宽进严出地收集线索、方向复核并建立可审计问题节点"
+  default_prompt: "使用 $problem-discovery-funnel 收集这批问题线索，并按适当阶段处理。"
+policy:
+  allow_implicit_invocation: true
